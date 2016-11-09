@@ -16,6 +16,7 @@
 #include"AlgobaseTest.h"
 #include"AlgoTest.h"
 #include"AlgorithmTest.h"
+#include"BasestringTest.h"
 
 int main(int argc, char **argv)
 {
@@ -37,6 +38,7 @@ int main(int argc, char **argv)
     AlgobaseTest algobase_test;
     AlgoTest algo_test;
     AlgorithmTest algorithm_test;
+    BasestringTest basestring_test;
 
     vector_Test.test();
     list_Test.test();
@@ -56,4 +58,5 @@ int main(int argc, char **argv)
     algobase_test.test();
     algo_test.test();
     algorithm_test.test();
+    basestring_test.test();
 }
